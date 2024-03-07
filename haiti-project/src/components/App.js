@@ -9,9 +9,10 @@ function App() {
   const [searchHaiti, setSearchHaiti] = useState("")
 
   const filteredHaiti = haiti.filter(haitian => {
-    if(searchHaiti === "") return true
+    // if(searchHaiti === "") return true
     return haitian.name.toUpperCase().includes(searchHaiti.toUpperCase()) || haitian.category.toUpperCase().includes(searchHaiti.toUpperCase())
 })
+console.log(filteredHaiti)
 
   useEffect(() => {
     fetch('http://localhost:6100/haiti')
@@ -41,7 +42,7 @@ function App() {
       <NavBar />
       <Search searchHaiti={searchHaiti} updateSearchHaiti={updateSearchHaiti} haitian={filteredHaiti}/>
       <Header />
-      <Outlet context={{haiti:haiti, addForm:addForm}}/> 
+      <Outlet context={{haiti:filteredHaiti, addForm:addForm}}/> 
     </div>
   );
 }
