@@ -1,0 +1,53 @@
+{
+  "haiti": [
+    {
+      "id": 1,
+      "name": "Griot",
+      "image": "images/Griot.png",
+      "category": "Category: Food",
+      "info": "Description: Fried Pork"
+    },
+    {
+      "id": 2,
+      "name": "Lambi",
+      "image": "images/Lambi.png",
+      "category": "Category: Food",
+      "info": "Description: Made from Konch"
+    },
+    {
+      "id": 3,
+      "name": "Soup Joumou",
+      "image": "images/Soup-Joumou.png",
+      "category": "Category: Food",
+      "info": "Description:: Beef, potatos, noodles, vegetables"
+    },
+    {
+      "id": 4,
+      "name": "Haitian Patties",
+      "image": "images/Haitian-Patties.png",
+      "category": "Category: Landmarks",
+      "info": "Description: Beef, Fish, Chicken"
+    },
+    {
+      "id": 5,
+      "name": "Saut-Mathurine",
+      "image": "images/Saut-Mathurine.png",
+      "category": "Category: Landmarks",
+      "info": "Description: Waterfall"
+    },
+    {
+      "id": 6,
+      "name": "Labadie",
+      "image": "images/Labadie.png",
+      "category": "Category: Landmarks",
+      "info": "Description: Beach Area"
+    },
+    {
+      "id": 7,
+      "name": "Cave Grotte Marie-Jeanne",
+      "image": "images/Cave-Grotte-Marie-Jeannne.png",
+      "category": "Category: Landmarks",
+      "info": "Description: Cave"
+    }
+  ]
+}
